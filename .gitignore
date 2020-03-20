@@ -1,0 +1,9 @@
+__pycache__
+logs
+utils/__pycache__
+utils/*.pyc
+lib/__pycache__
+lib/*.pyc
+data
+*.pt
+*.pyc
