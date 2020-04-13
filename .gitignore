@@ -4,6 +4,7 @@ utils/__pycache__
 utils/*.pyc
 lib/__pycache__
 lib/*.pyc
-data
+data/gazefollow
+data/videoatttarget
 *.pt
 *.pyc
