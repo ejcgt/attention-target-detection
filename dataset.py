@@ -163,11 +163,6 @@ class GazeFollow(Dataset):
                 img = TF.adjust_contrast(img, contrast_factor=np.random.uniform(0.5, 1.5))
                 img = TF.adjust_saturation(img, saturation_factor=np.random.uniform(0, 1.5))
 
-            # Random color change
-            if np.random.random_sample() <= 0.5:
-                img = TF.adjust_brightness(img, brightness_factor=np.random.uniform(0.5, 1.5))
-                img = TF.adjust_contrast(img, contrast_factor=np.random.uniform(0.5, 1.5))
-                img = TF.adjust_saturation(img, saturation_factor=np.random.uniform(0, 1.5))
         head_channel = imutils.get_head_box_channel(x_min, y_min, x_max, y_max, width, height,
                                                     resolution=self.input_size, coordconv=False).unsqueeze(0)
 
