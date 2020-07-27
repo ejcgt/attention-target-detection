@@ -26,7 +26,7 @@ python demo.py
 
 ## Experiment on the GazeFollow dataset
 ### Dataset
-We use the extended GazeFollow annotation prepared by [Chong et al. ECCV 2018](http://openaccess.thecvf.com/content_ECCV_2018/html/Eunji_Chong_Connecting_Gaze_Scene_ECCV_2018_paper.html), which makes an additional annotation to the original [GazeFollow dataset](http://gazefollow.csail.mit.edu/) regarding whether gaze targets are within or outside the frame. You can download the extended dataset from [here](https://www.dropbox.com/s/3ejt9pm57ht2ed4/gazefollow_extended.zip?dl=0).
+We use the extended GazeFollow annotation prepared by [Chong et al. ECCV 2018](http://openaccess.thecvf.com/content_ECCV_2018/html/Eunji_Chong_Connecting_Gaze_Scene_ECCV_2018_paper.html), which makes an additional annotation to the original [GazeFollow dataset](http://gazefollow.csail.mit.edu/) regarding whether gaze targets are within or outside the frame. You can download the extended dataset from [here (image and label)](https://www.dropbox.com/s/3ejt9pm57ht2ed4/gazefollow_extended.zip?dl=0) or [here (label only)](https://www.dropbox.com/s/1mhgpu0x2w5yto6/gazefollow_extended_txtonly.zip?dl=0).
 
 Please adjust the dataset path accordingly in config.py.
 ### Evaluation
